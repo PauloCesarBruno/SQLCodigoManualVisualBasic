@@ -254,7 +254,7 @@ Line1:
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
 
         'obtem a string de conexao
-        MyConnection = New SqlConnection("Data Source=LAPTOP-OT96ST84;Initial Catalog=DBCliente;User ID=sa;Password=Paradoxo22")
+        MyConnection = New SqlConnection("Data Source=LAPTOP-PP6GUSQU;Initial Catalog=DBCliente;User ID=sa;Password=Paradoxo22")
 
         'define o titulo do relatorio
         RelatorioTitulo = "Lista de Clientes - "
