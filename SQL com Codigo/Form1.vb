@@ -254,7 +254,7 @@ Line1:
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
 
         'obtem a string de conexao
-        MyConnection = New SqlConnection("Data Source=DESKTOP-PPP09CP;Initial Catalog=DBCliente;User ID=sa;Password=Paradoxo22")
+        MyConnection = New SqlConnection("Data Source=DESKTOP-EJP79KA;Initial Catalog=DBCliente;User ID=sa;Password=Paradoxo22")
 
         'define o titulo do relatorio
         RelatorioTitulo = "Lista de Clientes - "
@@ -339,8 +339,8 @@ Line1:
         e.Graphics.DrawLine(CanetaDaImpressora, MargemEsquerda, 160, MargemDireita, 160)
 
 
-        'Imagem
-        e.Graphics.DrawImage(Image.FromFile("C:\Paulo Bruno\Icones - Imagens e Gif´s\Imagens\" & "Teste.jpg"), 100, 68)
+        'Imagem(ESTA IMAGEM ESTA EM OCULTO NA RAIZ DO HD D:\).
+        e.Graphics.DrawImage(Image.FromFile("D:\" & "Teste.jpg"), 100, 68)
         e.Graphics.DrawString(RelatorioTitulo & System.DateTime.Today, FonteSubTitulo, Brushes.Black, MargemEsquerda + 180, 100, New StringFormat())
 
 
