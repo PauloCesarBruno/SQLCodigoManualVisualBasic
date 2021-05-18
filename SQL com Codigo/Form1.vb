@@ -1,7 +1,5 @@
 ﻿' Nesse Projeto Vai se criando Privates Subs e carregando no botão principal...
-Imports System.Data
 Imports System.Data.SqlClient
-Imports System.Drawing.Printing
 Public Class Form1
     Dim cmd As SqlCommand
     Private paginaAtual As Integer = 1
