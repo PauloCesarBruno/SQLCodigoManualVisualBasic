@@ -330,7 +330,7 @@ Line1:
         FonteRodape = New Font("Arial", 8)
         FonteNormal = New Font("Arial", 9)
 
-        'define valores para linha atual e para linha da impressao
+        'define valores para linha atual e para linha da impressao.
         LinhaAtual = 0
         Dim L As Integer = 0
 
@@ -339,7 +339,7 @@ Line1:
         e.Graphics.DrawLine(CanetaDaImpressora, MargemEsquerda, 160, MargemDireita, 160)
 
 
-        'Imagem(ESTA IMAGEM ESTA EM OCULTO NA RAIZ DO HD D:\).
+        'Imagem(ESTA IMAGEM ESTA EM OCULTO NA RAIZ DO HD D:\)
         e.Graphics.DrawImage(Image.FromFile("D:\" & "Teste.jpg"), 100, 68)
         e.Graphics.DrawString(RelatorioTitulo & System.DateTime.Today, FonteSubTitulo, Brushes.Black, MargemEsquerda + 180, 100, New StringFormat())
 
